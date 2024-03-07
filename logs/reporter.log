@@ -1,0 +1,376 @@
+2024-03-07T14:07:39.579Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 21.6.2)
+2024-03-07T14:07:39.585Z - info: Searching for available extensions in C:\Users\gabri\source\repos\jsreportapp\
+2024-03-07T14:07:39.591Z - info: Extensions location cache not found, crawling directories
+2024-03-07T14:07:41.140Z - info: Found 35 extension(s)
+2024-03-07T14:07:41.250Z - info: Using extension authentication@4.0.1
+2024-03-07T14:07:41.575Z - info: Using extension base@4.0.0
+2024-03-07T14:07:41.580Z - info: Using extension child-templates@4.0.0
+2024-03-07T14:07:41.586Z - info: Using extension cli@4.0.2
+2024-03-07T14:07:41.589Z - info: Using extension components@4.0.0
+2024-03-07T14:07:41.592Z - info: Using extension data@4.0.0
+2024-03-07T14:07:41.593Z - info: Using extension express@4.0.1
+2024-03-07T14:07:42.008Z - info: Using extension freeze@4.0.0
+2024-03-07T14:07:42.012Z - info: Using extension fs-store@4.0.1
+2024-03-07T14:07:42.185Z - info: Using extension handlebars@4.0.1
+2024-03-07T14:07:42.188Z - info: Using extension import-export@4.0.2
+2024-03-07T14:07:42.205Z - info: Using extension jsrender@4.0.0
+2024-03-07T14:07:42.207Z - info: Using extension licensing@4.0.1
+2024-03-07T14:07:42.220Z - info: Using extension localization@4.0.1
+2024-03-07T14:07:42.222Z - info: Using extension npm@4.0.0
+2024-03-07T14:07:42.227Z - info: Using extension pdf-utils@4.0.2
+2024-03-07T14:07:42.231Z - info: Using extension reports@4.0.0
+2024-03-07T14:07:42.237Z - info: Using extension tags@4.0.1
+2024-03-07T14:07:42.240Z - info: Using extension text@4.0.0
+2024-03-07T14:07:42.242Z - info: Using extension version-control@4.0.0
+2024-03-07T14:07:42.268Z - info: Using extension assets@4.0.2
+2024-03-07T14:07:42.287Z - info: Using extension authorization@4.0.0
+2024-03-07T14:07:42.296Z - info: Using extension browser-client@4.0.0
+2024-03-07T14:07:42.302Z - info: Using extension chrome-pdf@4.0.0
+2024-03-07T14:07:42.307Z - info: Using extension docx@4.1.1
+2024-03-07T14:07:42.311Z - info: Using extension html-to-xlsx@4.0.1
+2024-03-07T14:07:42.933Z - info: html-to-xlsx detected chrome as available html engine
+2024-03-07T14:07:42.934Z - info: Using extension pptx@4.1.0
+2024-03-07T14:07:42.937Z - info: Using extension scheduling@4.0.0
+2024-03-07T14:07:42.977Z - info: Using extension scripts@4.0.0
+2024-03-07T14:07:42.979Z - info: Using extension static-pdf@4.0.0
+2024-03-07T14:07:42.980Z - info: Using extension studio@4.0.2
+2024-03-07T14:07:43.072Z - info: Using extension xlsx@4.0.2
+2024-03-07T14:07:43.075Z - info: Using extension public-templates@4.0.0
+2024-03-07T14:07:43.078Z - info: Using extension sample-template@4.0.0
+2024-03-07T14:07:43.080Z - info: Using extension studio-theme-dark@4.0.0
+2024-03-07T14:07:43.085Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2024-03-07T14:07:43.085Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2024-03-07T14:07:43.086Z - info: Using fs provider for template store.
+2024-03-07T14:07:43.093Z - info: fs store is persisting using fs for C:\Users\gabri\source\repos\jsreportapp\data
+2024-03-07T14:07:43.119Z - info: fs store is loading data
+2024-03-07T14:07:43.136Z - info: fs store is initialized successfully
+2024-03-07T14:07:43.154Z - info: Creating default express app.
+2024-03-07T14:07:43.182Z - info: jsreport server successfully started on http port: 5488
+2024-03-07T14:07:43.184Z - info: Verifying license key free
+2024-03-07T14:07:43.186Z - info: Using free license
+2024-03-07T14:07:43.243Z - info: Migrating templates chrome settings (waitForNetworkIddle -> waitForNetworkIdle)
+2024-03-07T14:07:43.256Z - info: Migration successful
+2024-03-07T14:07:43.637Z - info: Initializing worker threads
+2024-03-07T14:07:44.108Z - info: 2 worker threads initialized in 471ms
+2024-03-07T14:07:44.109Z - info: Starting temp files cleanup with 180000ms threshold
+2024-03-07T14:07:44.110Z - info: reporter initialized
+2024-03-07T14:09:09.383Z - info: Logging in user gabriel
+2024-03-07T14:11:03.934Z - info: Render request 1 queued for execution and waiting for available worker rootId=gfeoep5vfj0u76t, id=gfeoep5vfj0u76t
+2024-03-07T14:11:04.046Z - info: Starting rendering request 1 (user: gabriel) rootId=gfeoep5vfj0u76t, id=gfeoep5vfj0u76t
+2024-03-07T14:11:04.047Z - info: Rendering template { name: invoice, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=gfeoep5vfj0u76t, id=gfeoep5vfj0u76t
+2024-03-07T14:11:20.934Z - info: Rendering request 1 finished in 17001 ms rootId=gfeoep5vfj0u76t, id=gfeoep5vfj0u76t
+2024-03-07T14:11:44.334Z - info: Render request 2 queued for execution and waiting for available worker rootId=u5ubrb9ru8blvh8, id=u5ubrb9ru8blvh8
+2024-03-07T14:11:44.439Z - info: Starting rendering request 2 (user: gabriel) rootId=u5ubrb9ru8blvh8, id=u5ubrb9ru8blvh8
+2024-03-07T14:11:44.440Z - info: Rendering template { name: invoice, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=u5ubrb9ru8blvh8, id=u5ubrb9ru8blvh8
+2024-03-07T14:11:46.118Z - info: Rendering request 2 finished in 1782 ms rootId=u5ubrb9ru8blvh8, id=u5ubrb9ru8blvh8
+2024-03-07T14:11:56.663Z - info: Render request 3 queued for execution and waiting for available worker rootId=3qnjqd8ifq0db28, id=3qnjqd8ifq0db28
+2024-03-07T14:11:56.686Z - info: Starting rendering request 3 (user: gabriel) rootId=3qnjqd8ifq0db28, id=3qnjqd8ifq0db28
+2024-03-07T14:11:56.686Z - info: Rendering template { name: invoice, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=3qnjqd8ifq0db28, id=3qnjqd8ifq0db28
+2024-03-07T14:11:56.863Z - info: Rendering request 3 finished in 200 ms rootId=3qnjqd8ifq0db28, id=3qnjqd8ifq0db28
+2024-03-07T14:16:36.105Z - info: Render request 4 queued for execution and waiting for available worker rootId=5qv9nsnk6enjj6o, id=5qv9nsnk6enjj6o
+2024-03-07T14:16:36.133Z - info: Starting rendering request 4 (user: gabriel) rootId=5qv9nsnk6enjj6o, id=5qv9nsnk6enjj6o
+2024-03-07T14:16:36.134Z - info: Rendering template { name: invoice, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=5qv9nsnk6enjj6o, id=5qv9nsnk6enjj6o
+2024-03-07T14:16:36.357Z - info: Rendering request 4 finished in 251 ms rootId=5qv9nsnk6enjj6o, id=5qv9nsnk6enjj6o
+2024-03-07T14:17:30.334Z - info: Render request 5 queued for execution and waiting for available worker rootId=yjc3rcvpeb7fcii, id=yjc3rcvpeb7fcii
+2024-03-07T14:17:30.355Z - info: Starting rendering request 5 (user: gabriel) rootId=yjc3rcvpeb7fcii, id=yjc3rcvpeb7fcii
+2024-03-07T14:17:30.356Z - info: Rendering template { name: invoice, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=yjc3rcvpeb7fcii, id=yjc3rcvpeb7fcii
+2024-03-07T14:17:30.591Z - info: Rendering request 5 finished in 254 ms rootId=yjc3rcvpeb7fcii, id=yjc3rcvpeb7fcii
+2024-03-07T14:18:28.848Z - error: Error when processing OData POST: /odata/assets Error: Entity name can not be empty
+    at module.exports (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at module.exports (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-core\lib\main\validateEntityName.js:26:11)
+    at Object.insert (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-core\lib\main\store\collection.js:123:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-03-07T14:20:13.582Z - info: Render request 6 queued for execution and waiting for available worker rootId=1hkykow1qr8g525, id=1hkykow1qr8g525
+2024-03-07T14:20:13.616Z - info: Starting rendering request 6 (user: gabriel) rootId=1hkykow1qr8g525, id=1hkykow1qr8g525
+2024-03-07T14:20:13.617Z - info: Rendering template { name: invoice, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=1hkykow1qr8g525, id=1hkykow1qr8g525
+2024-03-07T14:20:13.854Z - info: Rendering request 6 finished in 276 ms rootId=1hkykow1qr8g525, id=1hkykow1qr8g525
+2024-03-07T14:36:19.998Z - info: Render request 7 queued for execution and waiting for available worker rootId=a4d3v1x1u1dg3s5, id=a4d3v1x1u1dg3s5
+2024-03-07T14:36:20.029Z - info: Starting rendering request 7 (user: gabriel) rootId=a4d3v1x1u1dg3s5, id=a4d3v1x1u1dg3s5
+2024-03-07T14:36:20.029Z - info: Rendering template { name: invoice, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=a4d3v1x1u1dg3s5, id=a4d3v1x1u1dg3s5
+2024-03-07T14:36:20.406Z - info: Rendering request 7 finished in 410 ms rootId=a4d3v1x1u1dg3s5, id=a4d3v1x1u1dg3s5
+2024-03-07T14:36:51.935Z - info: Render request 8 queued for execution and waiting for available worker rootId=6y5n5kg6fgrr1t9, id=6y5n5kg6fgrr1t9
+2024-03-07T14:36:51.968Z - info: Starting rendering request 8 (user: gabriel) rootId=6y5n5kg6fgrr1t9, id=6y5n5kg6fgrr1t9
+2024-03-07T14:36:51.969Z - info: Rendering template { name: invoice, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=6y5n5kg6fgrr1t9, id=6y5n5kg6fgrr1t9
+2024-03-07T14:36:52.161Z - info: Rendering request 8 finished in 246 ms rootId=6y5n5kg6fgrr1t9, id=6y5n5kg6fgrr1t9
+2024-03-07T14:37:32.420Z - info: Render request 9 queued for execution and waiting for available worker rootId=fobg1zdtgz4nwwz, id=fobg1zdtgz4nwwz
+2024-03-07T14:37:32.429Z - info: Starting rendering request 9 (user: gabriel) rootId=fobg1zdtgz4nwwz, id=fobg1zdtgz4nwwz
+2024-03-07T14:37:32.429Z - info: Rendering template { name: invoice, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=fobg1zdtgz4nwwz, id=fobg1zdtgz4nwwz
+2024-03-07T14:37:32.603Z - info: Rendering request 9 finished in 184 ms rootId=fobg1zdtgz4nwwz, id=fobg1zdtgz4nwwz
+2024-03-07T14:51:49.040Z - info: Render request 10 queued for execution and waiting for available worker rootId=j4lyozn257vvrjo, id=j4lyozn257vvrjo
+2024-03-07T14:51:49.067Z - info: Starting rendering request 10 (user: gabriel) rootId=j4lyozn257vvrjo, id=j4lyozn257vvrjo
+2024-03-07T14:51:49.068Z - info: Rendering template { name: my-template, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=j4lyozn257vvrjo, id=j4lyozn257vvrjo
+2024-03-07T14:51:50.272Z - info: Rendering request 10 finished in 1227 ms rootId=j4lyozn257vvrjo, id=j4lyozn257vvrjo
+2024-03-07T14:56:00.464Z - info: Verifying license key free
+2024-03-07T14:56:01.761Z - info: Starting one month enterprise trial
+2024-03-07T14:57:33.635Z - info: Render request 11 queued for execution and waiting for available worker rootId=iwufah1mw6dcpev, id=iwufah1mw6dcpev
+2024-03-07T14:57:33.663Z - info: Starting rendering request 11 (user: gabriel) rootId=iwufah1mw6dcpev, id=iwufah1mw6dcpev
+2024-03-07T14:57:33.664Z - info: Rendering template { name: my-template, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=iwufah1mw6dcpev, id=iwufah1mw6dcpev
+2024-03-07T14:57:37.331Z - info: Rendering request 11 finished in 3698 ms rootId=iwufah1mw6dcpev, id=iwufah1mw6dcpev
+2024-03-07T14:57:42.994Z - info: Render request 12 queued for execution and waiting for available worker rootId=b48xzwjtrukay3z, id=b48xzwjtrukay3z
+2024-03-07T14:57:43.016Z - info: Starting rendering request 12 (user: gabriel) rootId=b48xzwjtrukay3z, id=b48xzwjtrukay3z
+2024-03-07T14:57:43.017Z - info: Rendering template { name: my-template, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=b48xzwjtrukay3z, id=b48xzwjtrukay3z
+2024-03-07T14:57:46.779Z - info: Rendering request 12 finished in 3788 ms rootId=b48xzwjtrukay3z, id=b48xzwjtrukay3z
+2024-03-07T14:59:11.519Z - info: Render request 13 queued for execution and waiting for available worker rootId=adkzzi9drxio4rv, id=adkzzi9drxio4rv
+2024-03-07T14:59:11.544Z - info: Starting rendering request 13 (user: gabriel) rootId=adkzzi9drxio4rv, id=adkzzi9drxio4rv
+2024-03-07T14:59:11.545Z - info: Rendering template { name: my-template, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=adkzzi9drxio4rv, id=adkzzi9drxio4rv
+2024-03-07T14:59:16.829Z - info: Rendering request 13 finished in 5308 ms rootId=adkzzi9drxio4rv, id=adkzzi9drxio4rv
+2024-03-07T15:00:21.611Z - info: Render request 14 queued for execution and waiting for available worker rootId=btatdhu3cedvgoh, id=btatdhu3cedvgoh
+2024-03-07T15:00:21.651Z - info: Starting rendering request 14 (user: gabriel) rootId=btatdhu3cedvgoh, id=btatdhu3cedvgoh
+2024-03-07T15:00:21.652Z - info: Rendering template { name: my-template, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=btatdhu3cedvgoh, id=btatdhu3cedvgoh
+2024-03-07T15:00:26.204Z - info: Rendering request 14 finished in 4593 ms rootId=btatdhu3cedvgoh, id=btatdhu3cedvgoh
+2024-03-07T15:02:12.684Z - info: Render request 15 queued for execution and waiting for available worker rootId=7oqpap4xdapoj7k, id=7oqpap4xdapoj7k
+2024-03-07T15:02:12.705Z - info: Starting rendering request 15 (user: gabriel) rootId=7oqpap4xdapoj7k, id=7oqpap4xdapoj7k
+2024-03-07T15:02:12.706Z - info: Rendering template { name: my-template, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=7oqpap4xdapoj7k, id=7oqpap4xdapoj7k
+2024-03-07T15:02:17.791Z - info: Rendering request 15 finished in 5102 ms rootId=7oqpap4xdapoj7k, id=7oqpap4xdapoj7k
+2024-03-07T15:05:22.532Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 21.6.2)
+2024-03-07T15:05:22.537Z - info: Searching for available extensions in C:\Users\gabri\source\repos\jsreportapp\
+2024-03-07T15:05:22.546Z - info: Extensions location cache C:\Users\gabri\AppData\Local\Temp\jsreport\core\locations.json contains older information, crawling
+2024-03-07T15:05:24.623Z - info: Found 35 extension(s)
+2024-03-07T15:05:24.746Z - info: Using extension authentication@4.0.1
+2024-03-07T15:05:25.056Z - info: Using extension base@4.0.0
+2024-03-07T15:05:25.061Z - info: Using extension child-templates@4.0.0
+2024-03-07T15:05:25.063Z - info: Using extension cli@4.0.2
+2024-03-07T15:05:25.066Z - info: Using extension components@4.0.0
+2024-03-07T15:05:25.069Z - info: Using extension data@4.0.0
+2024-03-07T15:05:25.071Z - info: Using extension express@4.0.1
+2024-03-07T15:05:25.552Z - info: Using extension freeze@4.0.0
+2024-03-07T15:05:25.555Z - info: Using extension fs-store@4.0.1
+2024-03-07T15:05:25.752Z - info: Using extension handlebars@4.0.1
+2024-03-07T15:05:25.755Z - info: Using extension import-export@4.0.2
+2024-03-07T15:05:25.773Z - info: Using extension jsrender@4.0.0
+2024-03-07T15:05:25.774Z - info: Using extension licensing@4.0.1
+2024-03-07T15:05:25.798Z - info: Using extension localization@4.0.1
+2024-03-07T15:05:25.800Z - info: Using extension npm@4.0.0
+2024-03-07T15:05:25.809Z - info: Using extension pdf-utils@4.0.2
+2024-03-07T15:05:25.816Z - info: Using extension reports@4.0.0
+2024-03-07T15:05:25.822Z - info: Using extension tags@4.0.1
+2024-03-07T15:05:25.826Z - info: Using extension text@4.0.0
+2024-03-07T15:05:25.827Z - info: Using extension version-control@4.0.0
+2024-03-07T15:05:25.858Z - info: Using extension assets@4.0.2
+2024-03-07T15:05:25.877Z - info: Using extension authorization@4.0.0
+2024-03-07T15:05:25.887Z - info: Using extension browser-client@4.0.0
+2024-03-07T15:05:25.891Z - info: Using extension chrome-pdf@4.0.0
+2024-03-07T15:05:25.896Z - info: Using extension docx@4.1.1
+2024-03-07T15:05:25.900Z - info: Using extension html-to-xlsx@4.0.1
+2024-03-07T15:05:26.567Z - info: html-to-xlsx detected chrome as available html engine
+2024-03-07T15:05:26.568Z - info: Using extension pptx@4.1.0
+2024-03-07T15:05:26.571Z - info: Using extension scheduling@4.0.0
+2024-03-07T15:05:26.616Z - info: Using extension scripts@4.0.0
+2024-03-07T15:05:26.619Z - info: Using extension static-pdf@4.0.0
+2024-03-07T15:05:26.620Z - info: Using extension studio@4.0.2
+2024-03-07T15:05:26.734Z - info: Using extension xlsx@4.0.2
+2024-03-07T15:05:26.738Z - info: Using extension public-templates@4.0.0
+2024-03-07T15:05:26.741Z - info: Using extension sample-template@4.0.0
+2024-03-07T15:05:26.744Z - info: Using extension studio-theme-dark@4.0.0
+2024-03-07T15:05:26.748Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2024-03-07T15:05:26.748Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2024-03-07T15:05:26.749Z - info: Using fs provider for template store.
+2024-03-07T15:05:26.757Z - info: fs store is persisting using fs for C:\Users\gabri\source\repos\jsreportapp\data
+2024-03-07T15:05:26.765Z - info: fs store is loading data
+2024-03-07T15:05:26.795Z - info: fs store is initialized successfully
+2024-03-07T15:05:26.811Z - info: Creating default express app.
+2024-03-07T15:05:26.856Z - info: jsreport server successfully started on http port: 5488
+2024-03-07T15:05:26.860Z - info: Verifying license key free
+2024-03-07T15:05:28.172Z - info: Using enterprise trial license
+2024-03-07T15:05:28.179Z - info: Initializing worker threads
+2024-03-07T15:05:28.544Z - info: 2 worker threads initialized in 365ms
+2024-03-07T15:05:28.545Z - info: Starting temp files cleanup with 180000ms threshold
+2024-03-07T15:05:28.547Z - info: reporter initialized
+2024-03-07T15:10:26.339Z - info: Render request 1 queued for execution and waiting for available worker rootId=9ma2kmygp5autf2, id=9ma2kmygp5autf2
+2024-03-07T15:10:26.395Z - info: Starting rendering request 1 (user: gabriel) rootId=9ma2kmygp5autf2, id=9ma2kmygp5autf2
+2024-03-07T15:10:26.396Z - info: Rendering template { name: my-template, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=9ma2kmygp5autf2, id=9ma2kmygp5autf2
+2024-03-07T15:10:33.496Z - info: Rendering request 1 finished in 7161 ms rootId=9ma2kmygp5autf2, id=9ma2kmygp5autf2
+2024-03-07T15:12:21.741Z - info: Render request 2 queued for execution and waiting for available worker rootId=a9ilyqiid8fgaau, id=a9ilyqiid8fgaau
+2024-03-07T15:12:21.783Z - info: Starting rendering request 2 (user: gabriel) rootId=a9ilyqiid8fgaau, id=a9ilyqiid8fgaau
+2024-03-07T15:12:21.783Z - info: Rendering template { name: my-template, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=a9ilyqiid8fgaau, id=a9ilyqiid8fgaau
+2024-03-07T15:12:29.590Z - info: Rendering request 2 finished in 7851 ms rootId=a9ilyqiid8fgaau, id=a9ilyqiid8fgaau
+2024-03-07T15:14:24.817Z - info: Render request 3 queued for execution and waiting for available worker rootId=ngmninw9v4x6gc8, id=ngmninw9v4x6gc8
+2024-03-07T15:14:24.834Z - info: Starting rendering request 3 (user: gabriel) rootId=ngmninw9v4x6gc8, id=ngmninw9v4x6gc8
+2024-03-07T15:14:24.835Z - info: Rendering template { name: my-template, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=ngmninw9v4x6gc8, id=ngmninw9v4x6gc8
+2024-03-07T15:14:29.764Z - warn: Error when processing render request 3
+(because) error when evaluating custom script /my-server-script
+main is not defined
+
+(sandbox.js line 34:5)
+
+  32 |
+  33 |     console.log("Message sent: %s", info);
+> 34 |     main().catch(console.error);
+     |     ^
+  35 | }
+
+
+ReferenceError: main is not defined
+    at Object.afterRender (sandbox.js:34:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executionFn (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-scripts\lib\executeScript.js:75:11)
+    at async run (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:137:16)
+    at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:195:14)
+    at async executeScript (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-scripts\lib\executeScript.js:122:12)
+    at async Scripts._runScript (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-scripts\lib\worker.js:140:30)
+    at async Scripts.handleAfterRender (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-scripts\lib\worker.js:117:9)
+    at async ListenerCollection.fire (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
+    at async afterRender (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:102:5)
+2024-03-07T15:14:29.764Z - warn: Rendering request 3 finished with error in 4947 ms rootId=ngmninw9v4x6gc8, id=ngmninw9v4x6gc8
+2024-03-07T15:14:42.769Z - info: Render request 4 queued for execution and waiting for available worker rootId=9qx55i5niq5y5u2, id=9qx55i5niq5y5u2
+2024-03-07T15:14:42.793Z - info: Starting rendering request 4 (user: gabriel) rootId=9qx55i5niq5y5u2, id=9qx55i5niq5y5u2
+2024-03-07T15:14:42.794Z - info: Rendering template { name: my-template, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=9qx55i5niq5y5u2, id=9qx55i5niq5y5u2
+2024-03-07T15:14:47.743Z - info: Rendering request 4 finished in 4973 ms rootId=9qx55i5niq5y5u2, id=9qx55i5niq5y5u2
+2024-03-07T15:28:00.220Z - info: Render request 5 queued for execution and waiting for available worker rootId=2s0tsyo5jz9j82s, id=2s0tsyo5jz9j82s
+2024-03-07T15:28:00.242Z - info: Starting rendering request 5 (user: undefined) rootId=2s0tsyo5jz9j82s, id=2s0tsyo5jz9j82s
+2024-03-07T15:28:00.243Z - info: Rendering template { name: my-template, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=2s0tsyo5jz9j82s, id=2s0tsyo5jz9j82s
+2024-03-07T15:28:07.312Z - info: Rendering request 5 finished in 7093 ms rootId=2s0tsyo5jz9j82s, id=2s0tsyo5jz9j82s
+2024-03-07T15:29:00.315Z - info: Render request 6 queued for execution and waiting for available worker rootId=aptn2djutq5uapy, id=aptn2djutq5uapy
+2024-03-07T15:29:00.326Z - info: Starting rendering request 6 (user: undefined) rootId=aptn2djutq5uapy, id=aptn2djutq5uapy
+2024-03-07T15:29:00.326Z - info: Rendering template { name: my-template, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=aptn2djutq5uapy, id=aptn2djutq5uapy
+2024-03-07T15:29:05.546Z - info: Rendering request 6 finished in 5232 ms rootId=aptn2djutq5uapy, id=aptn2djutq5uapy
+2024-03-07T15:30:00.414Z - info: Render request 7 queued for execution and waiting for available worker rootId=qz1eg1kctxfyz64, id=qz1eg1kctxfyz64
+2024-03-07T15:30:00.422Z - info: Starting rendering request 7 (user: undefined) rootId=qz1eg1kctxfyz64, id=qz1eg1kctxfyz64
+2024-03-07T15:30:00.423Z - info: Rendering template { name: my-template, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=qz1eg1kctxfyz64, id=qz1eg1kctxfyz64
+2024-03-07T15:30:05.325Z - info: Rendering request 7 finished in 4911 ms rootId=qz1eg1kctxfyz64, id=qz1eg1kctxfyz64
+2024-03-07T16:01:20.801Z - info: Render request 8 queued for execution and waiting for available worker rootId=nsr9yo8re0ma5g1, id=nsr9yo8re0ma5g1
+2024-03-07T16:01:20.821Z - info: Starting rendering request 8 (user: gabriel) rootId=nsr9yo8re0ma5g1, id=nsr9yo8re0ma5g1
+2024-03-07T16:01:20.821Z - info: Rendering template { name: customers, recipe: html, engine: handlebars, preview: true } rootId=nsr9yo8re0ma5g1, id=nsr9yo8re0ma5g1
+2024-03-07T16:01:20.849Z - warn: Error when processing render request 8
+(because) error when evaluating custom script /get customers
+Unable to find module request
+The require calls:
+require('request')
+require('C:\Users\gabri\source\repos\jsreportapp\request')
+require('C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-cli\lib\request')
+
+
+(sandbox.js line 1:167)
+
+> 1 | var getRequest = require('request').get
+    |                                        ^
+  2 |
+  3 | function beforeRender(req, res, done) {
+  4 |     getRequest('http://services.odata.org/V4/Northwind/Northwind.svc/Customers?$top=5', function (err, resp, body) {
+
+
+Error: Unable to find module request
+The require calls:
+require('request')
+require('C:\Users\gabri\source\repos\jsreportapp\request')
+require('C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-cli\lib\request')
+
+    at doRequire (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\requireSandbox.js:89:11)
+    at sandboxRequire (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\requireSandbox.js:44:14)
+    at require (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:89:30)
+    at sandbox.js:1:167 rootId=nsr9yo8re0ma5g1, id=nsr9yo8re0ma5g1
+2024-03-07T16:01:20.850Z - warn: Rendering request 8 finished with error in 51 ms rootId=nsr9yo8re0ma5g1, id=nsr9yo8re0ma5g1
+2024-03-07T16:04:34.365Z - info: Render request 9 queued for execution and waiting for available worker rootId=taf9pll5mg3yyxu, id=taf9pll5mg3yyxu
+2024-03-07T16:04:34.387Z - info: Starting rendering request 9 (user: gabriel) rootId=taf9pll5mg3yyxu, id=taf9pll5mg3yyxu
+2024-03-07T16:04:34.387Z - info: Rendering template { name: customers, recipe: html, engine: handlebars, preview: true } rootId=taf9pll5mg3yyxu, id=taf9pll5mg3yyxu
+2024-03-07T16:04:36.184Z - info: Rendering request 9 finished in 1818 ms rootId=taf9pll5mg3yyxu, id=taf9pll5mg3yyxu
+2024-03-07T16:05:05.961Z - info: Render request 10 queued for execution and waiting for available worker rootId=cnrs42aom8vtzp6, id=cnrs42aom8vtzp6
+2024-03-07T16:05:05.982Z - info: Starting rendering request 10 (user: gabriel) rootId=cnrs42aom8vtzp6, id=cnrs42aom8vtzp6
+2024-03-07T16:05:05.983Z - info: Rendering template { name: customers, recipe: html, engine: handlebars, preview: true } rootId=cnrs42aom8vtzp6, id=cnrs42aom8vtzp6
+2024-03-07T16:05:07.739Z - info: Rendering request 10 finished in 1778 ms rootId=cnrs42aom8vtzp6, id=cnrs42aom8vtzp6
+2024-03-07T16:13:03.745Z - info: Render request 11 queued for execution and waiting for available worker rootId=06hhqy5sqnzcmju, id=06hhqy5sqnzcmju
+2024-03-07T16:13:03.780Z - info: Starting rendering request 11 (user: gabriel) rootId=06hhqy5sqnzcmju, id=06hhqy5sqnzcmju
+2024-03-07T16:13:03.781Z - info: Rendering template { name: detail, recipe: html-with-browser-client, engine: handlebars, preview: true } rootId=06hhqy5sqnzcmju, id=06hhqy5sqnzcmju
+2024-03-07T16:13:05.543Z - warn: Error when processing render request 11
+(because) error when evaluating engine handlebars for template /detail
+(because) missing helper: "toJSON"
+
+(sandbox.js line 13:18)
+Error: Missing helper: "toJSON"
+    at Object.<anonymous> (C:\Users\gabri\source\repos\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\helpers\helper-missing.js:19:13)
+    at Object.wrapper (C:\Users\gabri\source\repos\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.main (eval at compile (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:35:30), <anonymous>:12:129)
+    at main (C:\Users\gabri\source\repos\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (C:\Users\gabri\source\repos\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at Object.execute (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+    at Object.execute (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:27:43)
+    at executionFn (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:222:40)
+    at sandbox.js:13:18
+    at async run (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:137:16)
+wrapped by:
+Error: Error when evaluating engine handlebars for template /detail
+(because) missing helper: "toJSON"
+    at module.exports (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+    at executeEngine (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:310:33)
+    at async engine.engine (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+    at async invokeRender (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+    at async WorkerReporter._render (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:142:7)
+    at async C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+    at async processAndResponse (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=06hhqy5sqnzcmju, id=06hhqy5sqnzcmju
+2024-03-07T16:13:05.545Z - warn: Rendering request 11 finished with error in 1800 ms rootId=06hhqy5sqnzcmju, id=06hhqy5sqnzcmju
+2024-03-07T16:20:31.225Z - info: Render request 12 queued for execution and waiting for available worker rootId=zponx8z9y0768qm, id=zponx8z9y0768qm
+2024-03-07T16:20:31.249Z - info: Starting rendering request 12 (user: gabriel) rootId=zponx8z9y0768qm, id=zponx8z9y0768qm
+2024-03-07T16:20:31.250Z - info: Rendering template { name: detail, recipe: html-with-browser-client, engine: handlebars, preview: true } rootId=zponx8z9y0768qm, id=zponx8z9y0768qm
+2024-03-07T16:20:33.010Z - warn: Error when processing render request 12
+(because) error when evaluating engine handlebars for template /detail
+(because) missing helper: "toJSON"
+
+(sandbox.js line 13:18)
+Error: Missing helper: "toJSON"
+    at Object.<anonymous> (C:\Users\gabri\source\repos\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\helpers\helper-missing.js:19:13)
+    at Object.wrapper (C:\Users\gabri\source\repos\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.main (eval at compile (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:35:30), <anonymous>:12:129)
+    at main (C:\Users\gabri\source\repos\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (C:\Users\gabri\source\repos\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at Object.execute (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+    at Object.execute (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:27:43)
+    at executionFn (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:222:40)
+    at sandbox.js:13:18
+    at async run (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:137:16)
+wrapped by:
+Error: Error when evaluating engine handlebars for template /detail
+(because) missing helper: "toJSON"
+    at module.exports (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+    at executeEngine (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:310:33)
+    at async engine.engine (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+    at async invokeRender (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+    at async WorkerReporter._render (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:142:7)
+    at async C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+    at async processAndResponse (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=zponx8z9y0768qm, id=zponx8z9y0768qm
+2024-03-07T16:20:33.011Z - warn: Rendering request 12 finished with error in 1787 ms rootId=zponx8z9y0768qm, id=zponx8z9y0768qm
+2024-03-07T16:20:35.684Z - info: Render request 13 queued for execution and waiting for available worker rootId=wvqlxyxh6hp1qme, id=wvqlxyxh6hp1qme
+2024-03-07T16:20:35.704Z - info: Starting rendering request 13 (user: gabriel) rootId=wvqlxyxh6hp1qme, id=wvqlxyxh6hp1qme
+2024-03-07T16:20:35.705Z - info: Rendering template { name: customers, recipe: html, engine: handlebars, preview: true } rootId=wvqlxyxh6hp1qme, id=wvqlxyxh6hp1qme
+2024-03-07T16:20:37.266Z - info: Rendering request 13 finished in 1582 ms rootId=wvqlxyxh6hp1qme, id=wvqlxyxh6hp1qme
+2024-03-07T16:24:32.678Z - info: Render request 14 queued for execution and waiting for available worker rootId=zk3rs2q927q7wyd, id=zk3rs2q927q7wyd
+2024-03-07T16:24:32.699Z - info: Starting rendering request 14 (user: gabriel) rootId=zk3rs2q927q7wyd, id=zk3rs2q927q7wyd
+2024-03-07T16:24:32.699Z - info: Rendering template { name: customers, recipe: html, engine: handlebars, preview: true } rootId=zk3rs2q927q7wyd, id=zk3rs2q927q7wyd
+2024-03-07T16:24:34.592Z - info: Rendering request 14 finished in 1915 ms rootId=zk3rs2q927q7wyd, id=zk3rs2q927q7wyd
+2024-03-07T16:27:46.782Z - info: Render request 15 queued for execution and waiting for available worker rootId=x6pa0g1y00j9icf, id=x6pa0g1y00j9icf
+2024-03-07T16:27:46.805Z - info: Starting rendering request 15 (user: gabriel) rootId=x6pa0g1y00j9icf, id=x6pa0g1y00j9icf
+2024-03-07T16:27:46.806Z - info: Rendering template { name: my-template, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=x6pa0g1y00j9icf, id=x6pa0g1y00j9icf
+2024-03-07T16:27:52.234Z - info: Rendering request 15 finished in 5452 ms rootId=x6pa0g1y00j9icf, id=x6pa0g1y00j9icf
+2024-03-07T16:27:56.848Z - info: Render request 16 queued for execution and waiting for available worker rootId=ggwb7c2cbvk51sm, id=ggwb7c2cbvk51sm
+2024-03-07T16:27:56.867Z - info: Starting rendering request 16 (user: gabriel) rootId=ggwb7c2cbvk51sm, id=ggwb7c2cbvk51sm
+2024-03-07T16:27:56.868Z - info: Rendering template { name: customers, recipe: html, engine: handlebars, preview: true } rootId=ggwb7c2cbvk51sm, id=ggwb7c2cbvk51sm
+2024-03-07T16:27:57.056Z - warn: Report render failed
+(because) report cancelled by the client or closed network
+Error: Report cancelled by the client or closed network
+    at Object.close (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\advanced-workers\lib\threadWorker.js:180:21)
+    at Object.release (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\advanced-workers\lib\pool.js:50:22)
+    at EventEmitter.<anonymous> (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:396:18)
+    at Object.onceWrapper (node:events:633:28)
+    at EventEmitter.emit (node:events:519:28)
+    at Socket.onReqClose (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-express\lib\routes.js:68:20)
+    at Object.onceWrapper (node:events:634:26)
+    at Socket.emit (node:events:531:35)
+    at TCP.<anonymous> (node:net:337:12) rootId=ggwb7c2cbvk51sm, id=ggwb7c2cbvk51sm
+2024-03-07T16:27:58.826Z - info: Render request 17 queued for execution and waiting for available worker rootId=3patzo3vkre03u4, id=3patzo3vkre03u4
+2024-03-07T16:27:58.850Z - info: Starting rendering request 17 (user: gabriel) rootId=3patzo3vkre03u4, id=3patzo3vkre03u4
+2024-03-07T16:27:58.851Z - info: Rendering template { name: customers, recipe: html, engine: handlebars, preview: true } rootId=3patzo3vkre03u4, id=3patzo3vkre03u4
+2024-03-07T16:28:01.553Z - info: Rendering request 17 finished in 2727 ms rootId=3patzo3vkre03u4, id=3patzo3vkre03u4
+2024-03-07T16:28:30.274Z - info: Render request 18 queued for execution and waiting for available worker rootId=d5caswdhszult5z, id=d5caswdhszult5z
+2024-03-07T16:28:30.289Z - info: Starting rendering request 18 (user: gabriel) rootId=d5caswdhszult5z, id=d5caswdhszult5z
+2024-03-07T16:28:30.290Z - info: Rendering template { name: customers, recipe: html, engine: handlebars, preview: false } rootId=d5caswdhszult5z, id=d5caswdhszult5z
+2024-03-07T16:28:32.040Z - info: Rendering request 18 finished in 1771 ms rootId=d5caswdhszult5z, id=d5caswdhszult5z
+2024-03-07T17:49:16.540Z - info: fs store is loading data
+2024-03-07T17:49:46.194Z - error: Error when processing OData PATCH: /odata/templates(8vOo4MrSlcxhP0Ji) Error: Entity (_id: 8vOo4MrSlcxhP0Ji) was modified previously by another source
+    at module.exports (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at MainReporter.createError (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+    at AsyncFunction.<anonymous> (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-studio\lib\main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
+    at async Object.update (C:\Users\gabri\source\repos\jsreportapp\node_modules\@jsreport\jsreport-core\lib\main\store\collection.js:174:5)
+2024-03-07T17:57:28.617Z - info: fs store is loading data

@@ -1,0 +1,19 @@
+{
+    "shortid": "HJdabfchO",
+    "name": "schedule",
+    "templateShortid": "ZtdKdFo1b",
+    "cron": "* * * * *",
+    "creationDate": {
+        "$$date": 1709825251200
+    },
+    "modificationDate": {
+        "$$date": 1709825421560
+    },
+    "state": "planned",
+    "enabled": false,
+    "nextRun": {
+        "$$date": 1709825460000
+    },
+    "_id": "bYwYGz2eGYoxxlD6",
+    "$entitySet": "schedules"
+}

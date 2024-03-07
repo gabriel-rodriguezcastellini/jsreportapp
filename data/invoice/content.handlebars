@@ -1,0 +1,13 @@
+<style>
+  {{asset "./styles.css"}}
+</style>
+<h1> Invoice </h1>
+<div>
+    <span>from: {{from}}</span>
+</div>
+<div>
+    <span>to: {{to}}</span>
+</div>
+<div>
+    <span>tax: {{#tax price}}{{/tax}}$</span></span>
+</div>

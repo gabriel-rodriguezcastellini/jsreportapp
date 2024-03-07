@@ -1,0 +1,24 @@
+{
+    "name": "my-template",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "shortid": "ZtdKdFo1b",
+    "chrome": {
+        "printBackground": true
+    },
+    "scripts": [
+        {
+            "shortid": "vkcI8VoTBC"
+        }
+    ],
+    "creationDate": {
+        "$$date": 1709823355804
+    },
+    "modificationDate": {
+        "$$date": 1709823355804
+    },
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "5iaeQhlYTPslDrtf",
+    "$entitySet": "templates"
+}

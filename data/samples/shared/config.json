@@ -1,0 +1,14 @@
+{
+    "shortid": "dOoi1a",
+    "name": "shared",
+    "creationDate": {
+        "$$date": 1709820463341
+    },
+    "modificationDate": {
+        "$$date": 1709820463341
+    },
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "U9XB6ELrBvozivQA",
+    "$entitySet": "folders"
+}

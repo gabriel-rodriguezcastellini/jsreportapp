@@ -1,0 +1,22 @@
+{
+    "name": "customers",
+    "engine": "handlebars",
+    "recipe": "html",
+    "shortid": "im4CeRhn8",
+    "scripts": [
+        {
+            "shortid": "jSHajY1sfz"
+        }
+    ],
+    "creationDate": {
+        "$$date": 1709827279253
+    },
+    "modificationDate": {
+        "$$date": 1709828906124
+    },
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "8vOo4MrSlcxhP0Ji",
+    "$entitySet": "templates",
+    "readSharingToken": "b877cbed-0ea1-4fb3-ab50-02e70e950eb5"
+}

@@ -1,0 +1,15 @@
+{
+    "name": "get customers",
+    "scope": "template",
+    "shortid": "jSHajY1sfz",
+    "creationDate": {
+        "$$date": 1709827237004
+    },
+    "modificationDate": {
+        "$$date": 1709827503721
+    },
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "2zs7zL154P4H0pFh",
+    "$entitySet": "scripts"
+}
